@@ -1,259 +1,36 @@
 {
   "stats": {
-    "suites": 4,
-    "tests": 8,
-    "passes": 5,
+    "suites": 0,
+    "tests": 0,
+    "passes": 0,
     "pending": 0,
-    "failures": 3,
-    "start": "2022-06-09T07:14:57.392Z",
-    "end": "2022-06-09T07:14:57.786Z",
-    "duration": 394
+    "failures": 1,
+    "start": "2022-06-12T14:44:33.380Z",
+    "end": "2022-06-12T14:44:38.666Z",
+    "duration": 5286
   },
-  "tests": [
-    {
-      "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
-      "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
-      "file": "/home/karen/phase-1-control-flow-lab/test/indexTest.js",
-      "duration": 1,
-      "currentRetry": 0,
-      "speed": "fast",
-      "err": {}
-    },
-    {
-      "title": "charges 30 dollars for a distance over 2000 feet",
-      "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
-      "file": "/home/karen/phase-1-control-flow-lab/test/indexTest.js",
-      "duration": 2,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'I will gladly take your thirty bucks.,$ I will gladly take your thirty bucks.' to equal 'I will gladly take your thirty bucks.'",
-        "showDiff": true,
-        "actual": "I will gladly take your thirty bucks.,$ I will gladly take your thirty bucks.",
-        "expected": "I will gladly take your thirty bucks.",
-        "stack": "AssertionError: expected 'I will gladly take your thirty bucks.,$ I will gladly take your thirty bucks.' to equal 'I will gladly take your thirty bucks.'\n    at Context.<anonymous> (test/indexTest.js:8:46)\n    at processImmediate (node:internal/timers:466:21)",
-        "multiple": [
-          {
-            "name": "AssertionError",
-            "message": "expected 'I will gladly take your thirty bucks.,$ I will gladly take your thirty bucks.' to equal 'I will gladly take your thirty bucks.'",
-            "showDiff": true,
-            "actual": "I will gladly take your thirty bucks.,$ I will gladly take your thirty bucks.",
-            "expected": "I will gladly take your thirty bucks.",
-            "multiple": "AssertionError: expected 'I will gladly take your thirty bucks.,$ I will gladly take your thirty bucks.' to equal 'I will gladly take your thirty bucks.'",
-            "stack": "AssertionError: expected 'I will gladly take your thirty bucks.,$ I will gladly take your thirty bucks.' to equal 'I will gladly take your thirty bucks.'\n    at Context.<anonymous> (test/indexTest.js:8:46)\n    at processImmediate (node:internal/timers:466:21)"
-          }
-        ]
-      }
-    },
-    {
-      "title": "does not allow rides over 2500 feet",
-      "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
-      "file": "/home/karen/phase-1-control-flow-lab/test/indexTest.js",
-      "duration": 0,
-      "currentRetry": 0,
-      "speed": "fast",
-      "err": {}
-    },
-    {
-      "title": "returns \"Ok, sounds good.\" when the city is NYC",
-      "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "file": "/home/karen/phase-1-control-flow-lab/test/indexTest.js",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'Ok,sounds good.' to equal 'Ok, sounds good.'",
-        "showDiff": true,
-        "actual": "Ok,sounds good.",
-        "expected": "Ok, sounds good.",
-        "stack": "AssertionError: expected 'Ok,sounds good.' to equal 'Ok, sounds good.'\n    at Context.<anonymous> (test/indexTest.js:18:42)\n    at processImmediate (node:internal/timers:466:21)",
-        "multiple": [
-          {
-            "name": "AssertionError",
-            "message": "expected 'Ok,sounds good.' to equal 'Ok, sounds good.'",
-            "showDiff": true,
-            "actual": "Ok,sounds good.",
-            "expected": "Ok, sounds good.",
-            "multiple": "AssertionError: expected 'Ok,sounds good.' to equal 'Ok, sounds good.'",
-            "stack": "AssertionError: expected 'Ok,sounds good.' to equal 'Ok, sounds good.'\n    at Context.<anonymous> (test/indexTest.js:18:42)\n    at processImmediate (node:internal/timers:466:21)"
-          }
-        ]
-      }
-    },
-    {
-      "title": "should return \"No go.\" if the destination city is not NYC",
-      "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
-      "file": "/home/karen/phase-1-control-flow-lab/test/indexTest.js",
-      "duration": 0,
-      "currentRetry": 0,
-      "speed": "fast",
-      "err": {}
-    },
-    {
-      "title": "should return \"Thank you so much.\" if the tip is generous",
-      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
-      "file": "/home/karen/phase-1-control-flow-lab/test/indexTest.js",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'Thank you so much' to equal 'Thank you so much.'",
-        "showDiff": true,
-        "actual": "Thank you so much",
-        "expected": "Thank you so much.",
-        "stack": "AssertionError: expected 'Thank you so much' to equal 'Thank you so much.'\n    at Context.<anonymous> (test/indexTest.js:28:51)\n    at processImmediate (node:internal/timers:466:21)",
-        "multiple": [
-          {
-            "name": "AssertionError",
-            "message": "expected 'Thank you so much' to equal 'Thank you so much.'",
-            "showDiff": true,
-            "actual": "Thank you so much",
-            "expected": "Thank you so much.",
-            "multiple": "AssertionError: expected 'Thank you so much' to equal 'Thank you so much.'",
-            "stack": "AssertionError: expected 'Thank you so much' to equal 'Thank you so much.'\n    at Context.<anonymous> (test/indexTest.js:28:51)\n    at processImmediate (node:internal/timers:466:21)"
-          }
-        ]
-      }
-    },
-    {
-      "title": "should return \"Thank you.\" if the tip is not as generous",
-      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
-      "file": "/home/karen/phase-1-control-flow-lab/test/indexTest.js",
-      "duration": 0,
-      "currentRetry": 0,
-      "speed": "fast",
-      "err": {}
-    },
-    {
-      "title": "should return \"Bye.\" if anything else",
-      "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
-      "file": "/home/karen/phase-1-control-flow-lab/test/indexTest.js",
-      "duration": 0,
-      "currentRetry": 0,
-      "speed": "fast",
-      "err": {}
-    }
-  ],
+  "tests": [],
   "pending": [],
   "failures": [
     {
-      "title": "charges 30 dollars for a distance over 2000 feet",
-      "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
-      "file": "/home/karen/phase-1-control-flow-lab/test/indexTest.js",
-      "duration": 2,
+      "title": "\"before all\" hook in \"{root}\"",
+      "fullTitle": "\"before all\" hook in \"{root}\"",
+      "duration": 5281,
       "currentRetry": 0,
       "err": {
-        "message": "expected 'I will gladly take your thirty bucks.,$ I will gladly take your thirty bucks.' to equal 'I will gladly take your thirty bucks.'",
-        "showDiff": true,
-        "actual": "I will gladly take your thirty bucks.,$ I will gladly take your thirty bucks.",
-        "expected": "I will gladly take your thirty bucks.",
-        "stack": "AssertionError: expected 'I will gladly take your thirty bucks.,$ I will gladly take your thirty bucks.' to equal 'I will gladly take your thirty bucks.'\n    at Context.<anonymous> (test/indexTest.js:8:46)\n    at processImmediate (node:internal/timers:466:21)",
+        "stack": "Error: Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.\n    at Object.done (node_modules/mocha-jsdom/index.js:70:7)\n    at /home/karen/phase-1-control-flow-lab/node_modules/jsdom/lib/jsdom.js:312:18\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)",
+        "message": "Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.",
+        "code": "ERR_MOCHA_TIMEOUT",
+        "timeout": 5000,
         "multiple": [
           {
-            "name": "AssertionError",
-            "message": "expected 'I will gladly take your thirty bucks.,$ I will gladly take your thirty bucks.' to equal 'I will gladly take your thirty bucks.'",
-            "showDiff": true,
-            "actual": "I will gladly take your thirty bucks.,$ I will gladly take your thirty bucks.",
-            "expected": "I will gladly take your thirty bucks.",
-            "multiple": "AssertionError: expected 'I will gladly take your thirty bucks.,$ I will gladly take your thirty bucks.' to equal 'I will gladly take your thirty bucks.'",
-            "stack": "AssertionError: expected 'I will gladly take your thirty bucks.,$ I will gladly take your thirty bucks.' to equal 'I will gladly take your thirty bucks.'\n    at Context.<anonymous> (test/indexTest.js:8:46)\n    at processImmediate (node:internal/timers:466:21)"
-          }
-        ]
-      }
-    },
-    {
-      "title": "returns \"Ok, sounds good.\" when the city is NYC",
-      "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "file": "/home/karen/phase-1-control-flow-lab/test/indexTest.js",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'Ok,sounds good.' to equal 'Ok, sounds good.'",
-        "showDiff": true,
-        "actual": "Ok,sounds good.",
-        "expected": "Ok, sounds good.",
-        "stack": "AssertionError: expected 'Ok,sounds good.' to equal 'Ok, sounds good.'\n    at Context.<anonymous> (test/indexTest.js:18:42)\n    at processImmediate (node:internal/timers:466:21)",
-        "multiple": [
-          {
-            "name": "AssertionError",
-            "message": "expected 'Ok,sounds good.' to equal 'Ok, sounds good.'",
-            "showDiff": true,
-            "actual": "Ok,sounds good.",
-            "expected": "Ok, sounds good.",
-            "multiple": "AssertionError: expected 'Ok,sounds good.' to equal 'Ok, sounds good.'",
-            "stack": "AssertionError: expected 'Ok,sounds good.' to equal 'Ok, sounds good.'\n    at Context.<anonymous> (test/indexTest.js:18:42)\n    at processImmediate (node:internal/timers:466:21)"
-          }
-        ]
-      }
-    },
-    {
-      "title": "should return \"Thank you so much.\" if the tip is generous",
-      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
-      "file": "/home/karen/phase-1-control-flow-lab/test/indexTest.js",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'Thank you so much' to equal 'Thank you so much.'",
-        "showDiff": true,
-        "actual": "Thank you so much",
-        "expected": "Thank you so much.",
-        "stack": "AssertionError: expected 'Thank you so much' to equal 'Thank you so much.'\n    at Context.<anonymous> (test/indexTest.js:28:51)\n    at processImmediate (node:internal/timers:466:21)",
-        "multiple": [
-          {
-            "name": "AssertionError",
-            "message": "expected 'Thank you so much' to equal 'Thank you so much.'",
-            "showDiff": true,
-            "actual": "Thank you so much",
-            "expected": "Thank you so much.",
-            "multiple": "AssertionError: expected 'Thank you so much' to equal 'Thank you so much.'",
-            "stack": "AssertionError: expected 'Thank you so much' to equal 'Thank you so much.'\n    at Context.<anonymous> (test/indexTest.js:28:51)\n    at processImmediate (node:internal/timers:466:21)"
+            "code": "ERR_MOCHA_TIMEOUT",
+            "timeout": 5000,
+            "multiple": "Error: Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves."
           }
         ]
       }
     }
   ],
-  "passes": [
-    {
-      "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
-      "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
-      "file": "/home/karen/phase-1-control-flow-lab/test/indexTest.js",
-      "duration": 1,
-      "currentRetry": 0,
-      "speed": "fast",
-      "err": {}
-    },
-    {
-      "title": "does not allow rides over 2500 feet",
-      "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
-      "file": "/home/karen/phase-1-control-flow-lab/test/indexTest.js",
-      "duration": 0,
-      "currentRetry": 0,
-      "speed": "fast",
-      "err": {}
-    },
-    {
-      "title": "should return \"No go.\" if the destination city is not NYC",
-      "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
-      "file": "/home/karen/phase-1-control-flow-lab/test/indexTest.js",
-      "duration": 0,
-      "currentRetry": 0,
-      "speed": "fast",
-      "err": {}
-    },
-    {
-      "title": "should return \"Thank you.\" if the tip is not as generous",
-      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
-      "file": "/home/karen/phase-1-control-flow-lab/test/indexTest.js",
-      "duration": 0,
-      "currentRetry": 0,
-      "speed": "fast",
-      "err": {}
-    },
-    {
-      "title": "should return \"Bye.\" if anything else",
-      "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
-      "file": "/home/karen/phase-1-control-flow-lab/test/indexTest.js",
-      "duration": 0,
-      "currentRetry": 0,
-      "speed": "fast",
-      "err": {}
-    }
-  ]
+  "passes": []
 }
